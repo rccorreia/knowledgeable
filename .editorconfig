@@ -96,8 +96,6 @@ dotnet_naming_rule.private_protected_field_symbols_should_be_camel_case.severity
 # comente caso queira usar underscore para seus campos private e protected
 dotnet_naming_rule.private_protected_field_symbols_should_be_camel_case.style = camel_case_style
 
-# revisado ate aqui, Mud e Giggio
-
 # Code style defaults
 dotnet_sort_system_directives_first = false
 csharp_preserve_single_line_blocks = true

@@ -1,6 +1,7 @@
 # Knowledgeable
 
-Sistema que busca os resultados periódicos das empresas.
+Sistema que identifica se houve alteração nos dados do Portal de Dados Abertos da CVM.
+
 
 ## Setup
 

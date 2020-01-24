@@ -3,6 +3,32 @@
 Sistema que identifica se houve alteração nos dados do Portal de Dados Abertos da CVM.
 
 
+Para executar a função é necessário iniciar o container do Azurite.
+Execute os seguintes comandos:
+
+```
+docker pull mcr.microsoft.com/azure-storage/azurite
+
+docker run -p 10000:10000 -p 10001:10001 mcr.microsoft.com/azure-storage/azurite
+```
+
+No arquivo local.settings.json deve ser especificada a chave "AzureWebJobsStorage" abaixo de "Values":
+
+```
+"Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+```
+
+        
+---
+---
+---
+Completar com os dados abaixo
+---
+---
+---
+
+
 ## Setup
 
 * Quais são as ferramentas necessárias

@@ -9,7 +9,7 @@ namespace Unidade
         [Test]
         public void KnowledgeableDeveRealizarLog()
         {
-            var mensagemEsperada = "C# Timer trigger function executed at";
+            var mensagemEsperada = "Timer trigger executada as";
             var logger = new ListLogger();
 
             knowledgeable.knowledgeable.RunAsync(null, logger);

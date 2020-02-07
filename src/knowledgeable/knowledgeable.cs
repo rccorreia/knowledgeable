@@ -9,7 +9,7 @@ namespace knowledgeable
     public static class knowledgeable
     {
         [FunctionName("knowledgeable")]
-        public static async Task RunAsync([TimerTrigger("0 45 0/8 * * *")] TimerInfo myTimer,
+        public static async Task RunAsync([TimerTrigger("0 45 8/8 * * *")] TimerInfo myTimer,
             ILogger log)
         {
             log.LogInformation(
